@@ -1,3 +1,10 @@
+## Example data
+
+- The YFP image is heavily saturated. Normally this is to be avoided! However here we only measure whether cells are transfected or not so this is not a problem.
+
+
+## CellProfiler modules that may need adaptation
+
 #### Image 
 
 Drag and Drop the folder with the data to be analysed.
