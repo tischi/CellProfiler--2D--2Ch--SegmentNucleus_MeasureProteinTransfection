@@ -1,3 +1,14 @@
+## Description
+
+This automated image analysis workflow finds nuclei in fluorescence images (DAPI stain) and measure the fluorescence intensity (transient transfection of a YFP-tagged protein) around each nucleus. Based on the measured intensity cells are classified as transfected or untransfected. The Motivation to develop this workflow was to measure the transfection efficiency of the YFP-tagged protein.
+
+
+## Prerequisites
+
+- Install [CellProfiler](http://www.cellprofiler.org/) (the pipeline has been developed for version 2.1.1)
+- Download the files in this GitHub repository and open the project file (.cpproj) in CellProfiler
+
+
 ## Example data
 
 - The YFP image is heavily saturated. Normally this is to be avoided! However here we only measure whether cells are transfected or not so this is not a problem.
